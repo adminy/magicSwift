@@ -1,0 +1,7 @@
+platform :ios, '12.0'
+use_frameworks!
+
+project 'YtMP3.xcodeproj'
+target 'YtMP3' do
+	pod 'mobile-ffmpeg-full-gpl', '~> 4.2'
+end
