@@ -26,7 +26,7 @@
 		B44E338D234BCDCF002697A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B44E3390234BCDCF002697A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B44E3392234BCDCF002697A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B44E3398234BCE8C002697A2 /* YtMP3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "YtMP3-Bridging-Header.h"; path = "YtMP3/YtMP3-Bridging-Header.h"; sourceTree = "<group>"; };
+		B44E3398234BCE8C002697A2 /* YtMP3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YtMP3-Bridging-Header.h"; sourceTree = "<group>"; };
 		BDFD73A96A1284A47734D557 /* Pods-YtMP3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YtMP3.debug.xcconfig"; path = "Target Support Files/Pods-YtMP3/Pods-YtMP3.debug.xcconfig"; sourceTree = "<group>"; };
 		DA491FED224DF5E6532DD2B6 /* Pods_YtMP3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YtMP3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,7 +54,6 @@
 		B44E3377234BCDCE002697A2 = {
 			isa = PBXGroup;
 			children = (
-				B44E3398234BCE8C002697A2 /* YtMP3-Bridging-Header.h */,
 				B44E3382234BCDCE002697A2 /* YtMP3 */,
 				B44E3381234BCDCE002697A2 /* Products */,
 				FF6653C5B4B9AF44591BAEBD /* Pods */,
@@ -74,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				B44E3383234BCDCE002697A2 /* AppDelegate.swift */,
+				B44E3398234BCE8C002697A2 /* YtMP3-Bridging-Header.h */,
 				B44E3385234BCDCE002697A2 /* ViewController.swift */,
 				B44E3387234BCDCE002697A2 /* Main.storyboard */,
 				B44E338D234BCDCF002697A2 /* Assets.xcassets */,
